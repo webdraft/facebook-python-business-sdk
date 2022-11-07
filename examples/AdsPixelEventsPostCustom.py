@@ -40,7 +40,7 @@ user_data = UserData(
     # It is recommended to send Client IP and User Agent for Conversions API Events.
     client_ip_address=request.META.get('REMOTE_ADDR'),
     client_user_agent=request.headers['User-Agent'],
-    fbc='fb.1.1554763741205.AbCdEfGhIjKlMnOpQrStUvWxYz1234567890',
+    fbc='fb.1.1554763741205.AbCdEfGhIjKlMnOpQrStUvWxYz1234567890', # fbc and fpb should be generated as per https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/fbp-and-fbc/
     fbp='fb.1.1558571054389.1098115397',
 )
 
